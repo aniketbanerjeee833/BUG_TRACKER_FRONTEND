@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# BUG_TRACKER_FRONTEND
+>>>>>>> c45bb5a6ab0a9388ebb5fb0b428a27e985eec520

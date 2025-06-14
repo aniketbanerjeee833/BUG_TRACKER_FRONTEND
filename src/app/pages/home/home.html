@@ -1,0 +1,14 @@
+
+<div class="home-container">
+  <header class="header">
+    <h1>User</h1>
+    <button class="logout-btn" (click)="onLogout()">Logout</button>
+  </header>
+
+  <div class="page-content">
+    <div class="welcome-card">
+      <h1>Welcome, {{ user?.username }} 👋</h1>
+      <p>You are logged in as <strong>{{ user?.role }}</strong></p>
+    </div>
+  </div>
+</div>

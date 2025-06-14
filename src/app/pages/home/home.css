@@ -1,0 +1,63 @@
+/* Make the full height page with flex layout */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header stays at top */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6c8bdd;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logout button style */
+.logout-btn {
+  background: white;
+  color: #6c8bdd;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #e5e5e5;
+}
+
+/* Flex grow so the card fills vertically */
+.page-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Welcome card design (same as before) */
+.welcome-card {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.welcome-card h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-card p {
+  font-size: 1.2rem;
+  color: #666;
+}
